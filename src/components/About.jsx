@@ -21,7 +21,7 @@ export default function About() {
           <p className="eyebrow"></p>
           <h2 className="section-heading">About Me</h2>
           <p className="mt-5 text-muted leading-relaxed max-w-md">
-            I’m Rahul Dev jiiiiii, a Computer Science student and aspiring Full-Stack & AI Developer with a strong interest in building practical, user-focused applications. I work with technologies such as React, JavaScript, TypeScript, Node.js, Express.js, MongoDB, Python, and Machine Learning.
+            I’m Rahul Dev Bera, a Computer Science student and aspiring Full-Stack & AI Developer with a strong interest in building practical, user-focused applications. I work with technologies such as React, JavaScript, TypeScript, Node.js, Express.js, MongoDB, Python, and Machine Learning.
           </p>
         </div>
 
