@@ -35,3 +35,56 @@
 @layer components {
   /* ...your existing .eyebrow / .section-heading / .container-px stay exactly as they were... */
 }
+
+/* 1. Theme Color Variables */
+:root {
+  --color-paper: #ffffff;
+  --color-surface: #f4f4f5;
+  --color-line: #e4e4e7;
+  --color-ink: #09090b;
+  --color-muted: #71717a;
+  --color-accent: #2563eb;
+}
+
+.dark {
+  --color-paper: #09090b;
+  --color-surface: #18181b;
+  --color-line: #27272a;
+  --color-ink: #fafafa;
+  --color-muted: #a1a1aa;
+  --color-accent: #3b82f6;
+}
+
+/* 2. Global Background & Color Transitions */
+body {
+  background-color: var(--color-paper);
+  color: var(--color-ink);
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+/* 3. Smooth Dark Mode Icon Switcher Animations */
+.theme-toggle-btn {
+  overflow: hidden;
+}
+
+.theme-icon {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  transition: transform 0.4s cubic-bezier(0.4, 0, 0.2, 1), opacity 0.3s ease;
+}
+
+.visible-icon {
+  opacity: 1;
+  transform: rotate(0deg) scale(1);
+}
+
+.rotate-sun {
+  opacity: 0;
+  transform: rotate(90deg) scale(0.5);
+}
+
+.rotate-moon {
+  opacity: 0;
+  transform: rotate(-90deg) scale(0.5);
+}
