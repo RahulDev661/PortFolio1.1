@@ -1,107 +1,140 @@
-import { GithubIcon, LinkedinIcon, ArrowRightIcon, FileTextIcon } from './Icons.jsx'
 
-export default function Hero() {
+import React from 'react';
+import { GithubIcon, LinkedinIcon, MailIcon, ArrowRightIcon } from './Icons.jsx';
+
+const Hero = () => {
   return (
-    <section
-      id="home"
-      className="relative pt-32 pb-20 sm:pt-40 sm:pb-28 container-px overflow-hidden"
-    >
-      <div className="max-w-6xl mx-auto grid lg:grid-cols-[1.15fr_0.85fr] gap-12 lg:gap-8 items-center">
-        {/* Left: identity */}
-        <div className="animate-fadeUp">
-          <p className="eyebrow">Mr</p>
+    <section className="min-h-screen bg-paper text-ink transition-colors duration-300 flex items-center justify-center px-6 py-12">
+      <div className="max-w-7xl w-full grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
+        
+        {/* Left Column: Intro & Headline */}
+        <div className="lg:col-span-6 space-y-6">
+          
+          {/* Availability Badge */}
+          <div className="inline-flex items-center gap-2 px-3 py-1.5 rounded-full border border-emerald-500/20 dark:border-emerald-500/30 bg-emerald-500/10 text-emerald-700 dark:text-emerald-400 text-xs font-medium">
+            <span className="w-2 h-2 rounded-full bg-emerald-500 animate-pulse"></span>
+            Available for opportunities
+          </div>
 
-          <h1 className="text-4xl sm:text-5xl lg:text-6xl font-display font-semibold tracking-tight leading-[1.05]">
-            Rahul Dev 
-          </h1>
+          {/* Heading */}
+          <div className="space-y-1">
+            <h1 className="text-4xl sm:text-6xl font-extrabold tracking-tight text-ink">
+              Hi, I'm
+            </h1>
+            <h1 className="text-5xl sm:text-7xl font-black text-accent tracking-tight">
+              Rahul Dev
+            </h1>
+          </div>
 
-          <p className="mt-4 text-lg sm:text-xl text-muted font-medium">
-            Building practical web applications with React, JavaScript, and modern development
-            tools.
+          {/* Subtitle */}
+          <p className="text-lg sm:text-xl font-medium text-muted leading-snug">
+            Frontend Developer building modern, responsive & user-friendly web applications.
           </p>
 
-          <p className="mt-5 max-w-xl text-base text-muted leading-relaxed">
-            I'm a software developer focused on the React ecosystem — turning real problems
-            into working, well-structured applications. I am Currently building a Client's Construction Website.
+          {/* Bio Description */}
+          <p className="text-sm sm:text-base text-muted leading-relaxed border-l-2 border-accent pl-4">
+            I specialize in React and JavaScript, creating clean, efficient, and scalable interfaces that solve real-world problems.
           </p>
 
-          <div className="mt-8 flex flex-wrap items-center gap-3">
+          {/* Action Buttons */}
+          <div className="flex flex-wrap items-center gap-4 pt-2">
             <a
               href="#projects"
-              className="inline-flex items-center gap-2 rounded-md bg-ink text-paper text-sm font-medium px-5 py-3 hover:bg-accent transition-colors"
+              className="inline-flex items-center gap-2 bg-accent hover:bg-accent-dark text-paper font-semibold px-6 py-3 rounded-xl shadow-lg shadow-accent/20 transition-all duration-200"
             >
               View Projects
-              <ArrowRightIcon width={16} height={16} />
+              <ArrowRightIcon className="w-4 h-4" />
             </a>
             <a
               href="#contact"
-              className="inline-flex items-center gap-2 rounded-md border border-line bg-surface text-ink text-sm font-medium px-5 py-3 hover:border-accent hover:text-accent transition-colors"
+              className="inline-flex items-center gap-2 border border-line bg-surface/50 hover:bg-accent-soft text-ink font-semibold px-6 py-3 rounded-xl transition-all duration-200"
             >
+              <MailIcon className="w-4 h-4" />
               Contact Me
             </a>
           </div>
 
-          <div className="mt-8 flex items-center gap-4">
+          {/* Social Icons */}
+          <div className="flex items-center gap-3 pt-4">
             <a
-              href="[https://github.com/RahulDev661]"
-              target="https://github.com/RahulDev661"
-              rel="https://github.com/RahulDev661"
-              aria-label="GitHub profile"
-              className="text-muted hover:text-accent transition-colors"
+              href="https://github.com"
+              target="_blank"
+              rel="noreferrer"
+              className="p-3 rounded-xl bg-line/60 hover:bg-accent-soft text-muted hover:text-accent transition-colors border border-line"
+              aria-label="GitHub"
             >
-              <GithubIcon />
+              <GithubIcon className="w-5 h-5" />
             </a>
             <a
-              href="[Add LinkedIn URL]"
+              href="https://linkedin.com"
               target="_blank"
-              rel="noreferrer noopener"
-              aria-label="LinkedIn profile"
-              className="text-muted hover:text-accent transition-colors"
+              rel="noreferrer"
+              className="p-3 rounded-xl bg-line/60 hover:bg-accent-soft text-muted hover:text-accent transition-colors border border-line"
+              aria-label="LinkedIn"
             >
-              <LinkedinIcon />
+              <LinkedinIcon className="w-5 h-5" />
             </a>
             <a
-              href="[Add Resume]"
-              target="_blank"
-              rel="noreferrer noopener"
-              className="inline-flex items-center gap-1.5 text-sm text-muted hover:text-accent transition-colors"
+              href="mailto:your-email@example.com"
+              className="p-3 rounded-xl bg-line/60 hover:bg-accent-soft text-muted hover:text-accent transition-colors border border-line"
+              aria-label="Email"
             >
-              <FileTextIcon width={16} height={16} />
-              Resume
+              <MailIcon className="w-5 h-5" />
             </a>
           </div>
         </div>
 
-        {/* Right: signature element — a small "editor" card that reads
-            like the component that renders this very hero */}
-        <div className="animate-fadeUp [animation-delay:120ms]">
-          <div className="rounded-xl border border-line bg-surface shadow-sm overflow-hidden">
-            <div className="flex items-center gap-1.5 px-4 py-3 border-b border-line bg-paper">
-              <span className="w-2.5 h-2.5 rounded-full bg-red-500" />
-              <span className="w-2.5 h-2.5 rounded-full bg-yellow-300" />
-              <span className="w-2.5 h-2.5 rounded-full bg-green-500" />
-              <span className="ml-3 font-mono text-xs text-faint-900">Rahul.js</span>
+        {/* Right Column: Code Card & Floating Image Overlay */}
+        <div className="lg:col-span-6 relative flex items-end justify-start min-h-420px">
+          
+          {/* Dynamic Code Window */}
+          <div className="w-full max-w-lg bg-surface rounded-2xl border border-line shadow-2xl overflow-hidden backdrop-blur-sm z-0">
+            
+            {/* Window Header */}
+            <div className="px-4 py-3 bg-paper border-b border-line flex items-center justify-between">
+              <div className="flex items-center gap-2">
+                <div className="w-3 h-3 rounded-full bg-red-500"></div>
+                <div className="w-3 h-3 rounded-full bg-yellow-500"></div>
+                <div className="w-3 h-3 rounded-full bg-green-500"></div>
+              </div>
+              <span className="text-xs text-muted font-mono">RahulDev.jsx</span>
             </div>
-            <pre className="p-5 sm:p-6 font-mono text-[13px] sm:text-sm leading-7 overflow-x-auto">
-              <code>
-                <span className="text-faint">01</span>{'  '}
-                <span className="text-accent">const</span> developer <span className="text-faint">=</span> {'{'}
-                {'\n'}
-                <span className="text-faint">02</span>{'    '}name:{' '}
-                <span className="text-muted">'[Rahul]'</span>,{'\n'}
-                <span className="text-faint">03</span>{'    '}stack:{' '}
-                <span className="text-muted">['React', 'JS', 'Node']</span>,{'\n'}
-                <span className="text-faint">04</span>{'    '}learning:{' '}
-                <span className="text-muted">'Frontend Developer'</span>,{'\n'}
-                <span className="text-faint">05</span>{'    '}status:{' '}
-                <span className="text-muted">'[Intership At FLy Rank AI]'</span>,{'\n'}
-                <span className="text-faint">06</span> {'}'}
-                <span className="inline-block w-2px h-4 bg-accent align-middle ml-1 animate-blink" />
-              </code>
-            </pre>
+
+            {/* Code Body */}
+            <div className="p-6 font-mono text-xs sm:text-sm leading-relaxed overflow-x-auto text-ink pr-24 sm:pr-32">
+              <pre>
+                <code>
+                  <div><span className="text-accent">const</span> developer = {'{'}</div>
+                  <div>  <span className="text-muted">name:</span> <span className="text-accent">'Rahul Dev'</span>,</div>
+                  <div>  <span className="text-muted">role:</span> <span className="text-accent">'Frontend Developer'</span>,</div>
+                  <div>  <span className="text-muted">stack:</span> [<span className="text-accent">'React'</span>, <span className="text-accent">'JavaScript'</span>,</div>
+                  <div>          <span className="text-accent">'Tailwind CSS'</span>, <span className="text-accent">'Node.js'</span>],</div>
+                  <div>  <span className="text-muted">passion:</span> <span className="text-accent">'Building impactful'</span></div>
+                  <div>           <span className="text-accent">'digital experiences'</span>,</div>
+                  <div>  <span className="text-muted">currently:</span> <span className="text-accent">'Building a Construction'</span></div>
+                  <div>             <span className="text-accent">'Website for a client'</span>,</div>
+                  <div>{'}'};</div>
+                  <br />
+                  <div><span className="text-accent-dark">export default</span> developer;</div>
+                </code>
+              </pre>
+            </div>
           </div>
+
+          {/* Floating Overlapping Image */}
+          <div className="absolute right-0 bottom-0 z-10 w-64 sm:w-80 md:w-96 pointer-events-none translate-x-4 sm:translate-x-8">
+            <img 
+              src="src/assets/ChatGPT Image Aug 28, 2026, 03_38_20 PM.png" 
+              alt="Rahul Dev" 
+              className="w-full h-auto object-cover drop-shadow-2xl" 
+            />
+          </div>
+
         </div>
+
       </div>
     </section>
-  )
-}
+  );
+};
+
+export default Hero;
