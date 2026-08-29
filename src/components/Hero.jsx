@@ -1,6 +1,7 @@
 
 import React from 'react';
 import { GithubIcon, LinkedinIcon, MailIcon, ArrowRightIcon } from './Icons.jsx';
+import rahulImage from '../assets/ChatGPT Image Aug 28, 2026, 03_38_20 PM.png';
 
 const Hero = () => {
   return (
@@ -124,7 +125,7 @@ const Hero = () => {
           {/* Floating Overlapping Image */}
           <div className="absolute right-0 bottom-0 z-10 w-64 sm:w-80 md:w-96 pointer-events-none translate-x-4 sm:translate-x-8">
             <img 
-              src="src/assets/ChatGPT Image Aug 28, 2026, 03_38_20 PM.png" 
+              src={rahulImage} 
               alt="Rahul Dev" 
               className="w-full h-auto object-cover drop-shadow-2xl" 
             />
