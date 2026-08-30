@@ -28,6 +28,6 @@ export const skillGroups = [
   {
     name: 'Tools',
     // path: 'skills/tools.js',
-    items: ['Git', 'GitHub', 'VS Code', 'npm'],
+    items: ['Git', 'GitHub', 'Postman', 'MongoDB Compass'],
   },
 ]

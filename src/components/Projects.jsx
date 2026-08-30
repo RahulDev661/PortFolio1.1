@@ -6,7 +6,7 @@ export default function Projects() {
     <section id="projects" className="container-px py-20 sm:py-28">
       <div className="max-w-6xl mx-auto">
         <p className="eyebrow"></p>
-        <h2 className="section-heading">Projects</h2>
+        <h2 className=" font-serif section-heading text-6xl tracking-widest">Projects</h2>
         <p className="mt-4 text-muted max-w-xl">
           A selection of what I've built. Each one started as a real problem I wanted to solve.
         </p>

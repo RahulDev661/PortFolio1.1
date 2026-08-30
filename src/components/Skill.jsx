@@ -5,8 +5,7 @@ export default function Skills() {
     <section id="skills" className="bg-surface border-y border-line">
       <div className="container-px py-20 sm:py-28">
         <div className="max-w-6xl mx-auto">
-          <p className="eyebrow"></p>
-          <h2 className="section-heading">Skills</h2>
+          <h2 className=" font-serif section-heading text-6xl tracking-widest">Skills</h2>
           <p className="mt-4 text-muted max-w-xl">
             Grouped by area — the tools and languages I actually use.
           </p>

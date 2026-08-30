@@ -19,7 +19,7 @@ export default function About() {
       <div className="max-w-6xl mx-auto grid lg:grid-cols-[0.9fr_1.1fr] gap-10 lg:gap-16">
         <div>
           <p className="eyebrow"></p>
-          <h2 className="section-heading">About Me</h2>
+          <h2 className=" font-serif section-heading text-6xl tracking-widest">About Me</h2>
           <p className="mt-5 text-muted leading-relaxed max-w-md">
             I’m Rahul Dev Bera, a Computer Science student and aspiring Full-Stack & AI Developer with a strong interest in building practical, user-focused applications. I work with technologies such as React, JavaScript, TypeScript, Node.js, Express.js, MongoDB, Python, and Machine Learning.
           </p>
