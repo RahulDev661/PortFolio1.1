@@ -3,7 +3,7 @@ import ProjectCard from './ProjectCard.jsx'
 
 export default function Projects() {
   return (
-    <section id="projects" className="container-px py-20 sm:py-28">
+    <section id="projects" className=" ml-2 container-px py-20 sm:py-28">
       <div className="max-w-6xl mx-auto">
         <p className="eyebrow"></p>
         <h2 className=" font-serif section-heading text-6xl tracking-widest">Projects</h2>

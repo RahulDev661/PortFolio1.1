@@ -22,8 +22,8 @@ const stages = [
 
 export default function FeaturedProject() {
   return (
-    <section className="bg-ink text-paper">
-      <div className="container-px py-20 sm:py-28">
+    <section className="ml-2 bg-ink text-paper rounded-2xl">
+      <div className="ml-2 container-px py-20 sm:py-28">
         <div className="max-w-6xl mx-auto">
           <p className="font-mono text-xs text-faint inline-flex items-center gap-2 mb-4">
             <span className="w-1.5 h-1.5 rounded-full bg-accent" />

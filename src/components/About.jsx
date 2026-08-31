@@ -15,8 +15,8 @@ const points = [
 
 export default function About() {
   return (
-    <section id="about" className="container-px py-20 sm:py-28">
-      <div className="max-w-6xl mx-auto grid lg:grid-cols-[0.9fr_1.1fr] gap-10 lg:gap-16">
+    <section id="about" className=" ml-4 container-px py-20 sm:py-28 ">
+      <div className="  max-w-6xl mx-auto grid lg:grid-cols-[0.9fr_1.1fr] gap-10 lg:gap-16">
         <div>
           <p className="eyebrow"></p>
           <h2 className=" font-serif section-heading text-6xl tracking-widest">About Me</h2>

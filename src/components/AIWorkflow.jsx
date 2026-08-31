@@ -27,8 +27,8 @@ const practices = [
 
 export default function AIWorkflow() {
   return (
-    <section className="bg-surface border-y border-line">
-      <div className="container-px py-20 sm:py-28">
+    <section className="ml-2 bg-surface border-y border-line rounded-2xl">
+      <div className="ml-2 container-px py-20 sm:py-28">
         <div className="max-w-6xl mx-auto">
           <p className="eyebrow"></p>
           <h2 className="section-heading">AI & Development Workflow</h2>

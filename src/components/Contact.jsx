@@ -50,7 +50,7 @@ export default function Contact() {
   }
 
   return (
-    <section id="contact" className="container-px py-20 sm:py-28">
+    <section id="contact" className=" ml-2 container-px py-20 sm:py-28">
       <div className="max-w-4xl mx-auto grid lg:grid-cols-[0.8fr_1.2fr] gap-12">
         <div>
           <p className="eyebrow"></p>
