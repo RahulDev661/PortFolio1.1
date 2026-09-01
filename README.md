@@ -1,21 +1,82 @@
-<<<<<<< HEAD
-# React + Vite
+MY DEVELOPER PORTFOLIO
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+1. ONE-LINE CLAIM
 
-Currently, two official plugins are available:
+"I build practical software that solves real problems."
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
 
-## React Compiler
+2. CONTENT MAP
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+Home
+- Hero
+- Introduction
+- Featured work
+- Skills
+- About
+- CTA
 
-## Expanding the ESLint configuration
+Projects
+- Featured project
+- Project cards
+- Technologies
+- Links
+- CTA
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
-=======
-# PortFolio1.1
-This portfolio showcases my projects, technical skills, experience, and journey as a developer. My goal is to build impactful software that combines clean design, solid engineering, and intelligent technology.
->>>>>>> 7757201eff08aa44c1e35e83336622e9d1b6125e
+Case Studies
+- Problem
+- Approach
+- What I built
+- Decisions
+- Challenges
+- Result
+- CTA
+
+About
+- Who I am
+- Skills
+- Learning
+- Development approach
+- CTA
+
+Contact
+- Email
+- GitHub
+- LinkedIn
+- Resume
+- CTA
+
+
+3. STILL NEED TO GATHER
+
+- Project screenshots
+- GitHub links
+- Live demos
+- Resume
+- Professional photo
+- Project metrics/results
+
+
+4. IDENTITY KIT
+
+Heading: Space Grotesk
+Body: Inter
+
+Main: #2563EB
+Text: #111827
+Background: #F9FAFB
+Accent: #F59E0B
+
+Logo: Initial-based monogram
+
+Style:
+Clean, technical, confident, practical.
+
+
+5. FINAL IMAGE SET
+
+My image for Hero Section
+
+
+6. REJECTED IMAGE
+
+2-3 Images for not fit at that theme
