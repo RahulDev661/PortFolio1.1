@@ -1,11 +1,11 @@
 const points = [
   {
     label: 'Currently learning',
-    body: 'Currently, I’m focused on strengthening my DSA, backend development, React, system design fundamentals, and AI development skills, while gaining real-world industry experience through projects and internships.]',
+    body: 'Currently, I’m focused on strengthening my DSA, backend development, React, system design fundamentals, and AI development skills, while gaining real-world industry experience through projects and internships.',
   },
   {
     label: 'What I enjoy building',
-    body: 'I enjoy solving problems through 200 + Data Structures and Algorithms and continuously improving my programming and development skills. I have worked on 15+ projects, including AI/ML applications, web applications, computer-vision projects, and automation tools. Some of my notable projects include a Virtual Gesture Keyboard, SafeBite Food Inspection System, Snake Classification Model, and Clap-to-Action application.',
+    body: 'I enjoy solving problems through 100 + Data Structures and Algorithms and continuously improving my programming and development skills. I have worked on 15+ projects, including AI/ML applications, web applications, computer-vision projects, and automation tools. Some of my notable projects include a Virtual Gesture Keyboard, SafeBite Food Inspection System, Snake Classification Model, and Clap-to-Action application.',
   },
   {
     label: "What I'm looking for",

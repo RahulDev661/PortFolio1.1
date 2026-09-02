@@ -2,8 +2,8 @@ import { skillGroups } from '../data/skills.js'
 
 export default function Skills() {
   return (
-    <section id="skills" className="ml-4 bg-surface border-y border-line rounded-2xl">
-      <div className="ml-2 container-px py-20 sm:py-28">
+    <section id="skills" className="ml-4 mr-4 bg-surface border-y border-line rounded-2xl">
+      <div className="ml-2 mr-2 container-px py-20 sm:py-28">
         <div className="max-w-6xl mx-auto">
           <h2 className=" font-serif section-heading text-6xl tracking-widest">Skills</h2>
           <p className="mt-4 text-muted max-w-xl">

@@ -20,7 +20,7 @@ const timeline = [
 
 export default function Experience() {
   return (
-    <section id="experience" className=" ml-2 container-px py-20 sm:py-28">
+    <section id="experience" className=" ml-2 mr-2  container-px py-20 sm:py-28">
       <div className="max-w-4xl mx-auto">
         <p className="eyebrow"></p>
         <h2 className="section-heading">Experience & Learning</h2>

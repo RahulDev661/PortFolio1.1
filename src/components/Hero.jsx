@@ -29,12 +29,12 @@ const Hero = () => {
 
           {/* Subtitle */}
           <p className="text-lg sm:text-xl font-medium text-muted leading-snug">
-            Frontend Developer building modern, responsive & user-friendly web applications.
+            FullStack Developer building modern, responsive & user-friendly web applications.
           </p>
 
           {/* Bio Description */}
           <p className="text-sm sm:text-base text-muted leading-relaxed border-l-2 border-accent pl-4">
-            I specialize in React and JavaScript, creating clean, efficient, and scalable interfaces that solve real-world problems.
+            I specialize in React and JavaScript, Redux, Node.js, Express.js and FastAPI. For creating clean, efficient, and scalable interfaces that solve real-world problems.
           </p>
 
           {/* Action Buttons */}
@@ -58,7 +58,7 @@ const Hero = () => {
           {/* Social Icons */}
           <div className="flex items-center gap-3 pt-4">
             <a
-              href="https://github.com"
+              href="https://github.com/RahulDev661"
               target="_blank"
               rel="noreferrer"
               className="p-3 rounded-xl bg-line/60 hover:bg-accent-soft text-muted hover:text-accent transition-colors border border-line"
@@ -67,7 +67,7 @@ const Hero = () => {
               <GithubIcon className="w-5 h-5" />
             </a>
             <a
-              href="https://linkedin.com"
+              href="https://www.linkedin.com/in/rahul-dev-845387315/"
               target="_blank"
               rel="noreferrer"
               className="p-3 rounded-xl bg-line/60 hover:bg-accent-soft text-muted hover:text-accent transition-colors border border-line"
@@ -76,7 +76,7 @@ const Hero = () => {
               <LinkedinIcon className="w-5 h-5" />
             </a>
             <a
-              href="mailto:your-email@example.com"
+              href="mailto:rahuldevbera098@//gmail.com"
               className="p-3 rounded-xl bg-line/60 hover:bg-accent-soft text-muted hover:text-accent transition-colors border border-line"
               aria-label="Email"
             >

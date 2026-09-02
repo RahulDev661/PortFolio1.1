@@ -18,7 +18,7 @@ export const skillGroups = [
   {
     name: 'Backend',
     // path: 'skills/backend.js',
-    items: ['Node.js', 'Express.js', 'REST APIs'],
+    items: ['Node.js', 'Express.js', 'REST APIs','MongoDB', 'Mongoose', 'JWT Authentication','FastAPI'],
   },
   {
     name: 'Programming & CS',

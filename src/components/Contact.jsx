@@ -50,7 +50,7 @@ export default function Contact() {
   }
 
   return (
-    <section id="contact" className=" ml-2 container-px py-20 sm:py-28">
+    <section id="contact" className=" ml-2 mr-2 container-px py-20 sm:py-28">
       <div className="max-w-4xl mx-auto grid lg:grid-cols-[0.8fr_1.2fr] gap-12">
         <div>
           <p className="eyebrow"></p>
@@ -67,15 +67,16 @@ export default function Contact() {
               <MailIcon width={16} height={16} /> rahuldevbera098@gmail.com
             </a>
             <a
-              href="[Add GitHub URL]"
-              target="_blank"
+              href="https://github.com/RahulDev661"
+              target="https://github.com/RahulDev661"
               rel="noreferrer noopener"
               className="flex items-center gap-2 text-sm text-ink hover:text-accent transition-colors"
             >
               <GithubIcon width={16} height={16} /> GitHub
             </a>
+            
             <a
-              href="[Add LinkedIn URL]"
+              href="https://www.linkedin.com/in/rahul-dev-845387315/"
               target="_blank"
               rel="noreferrer noopener"
               className="flex items-center gap-2 text-sm text-ink hover:text-accent transition-colors"
