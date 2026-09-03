@@ -1,82 +1,202 @@
-MY DEVELOPER PORTFOLIO
+# Portfolio Content Map
 
-1. ONE-LINE CLAIM
+## One-Line Claim
 
-"I build practical software that solves real problems."
+> **I build functional web applications that turn ideas and real problems into usable solutions.**
 
+---
 
-2. CONTENT MAP
+## Main Action
 
-Home
-- Hero
-- Introduction
-- Featured work
-- Skills
-- About
-- CTA
+> **Get in touch about an opportunity to work together.**
 
-Projects
-- Featured project
-- Project cards
-- Technologies
-- Links
-- CTA
+The main purpose of my portfolio is to demonstrate my skills and projects to potential employers and create opportunities to work with them.
 
-Case Studies
-- Problem
-- Approach
+---
+
+# Content Map
+
+## 🏠 Home Page
+
+### Sections
+
+1. **Hero Section**
+   - My name
+   - One-line claim
+   - Short introduction
+   - Primary CTA
+
+2. **Featured Work**
+   - My strongest project first
+   - Selected major projects
+
+3. **What I Do**
+   - Build functional web applications
+   - Develop user interfaces
+   - Solve practical problems through software
+
+4. **Skills & Technologies**
+   - Technologies and tools I actually use
+
+5. **About Preview**
+   - Short introduction about me and my work
+
+6. **Contact Section**
+   - Final invitation to connect
+
+### Featured Cases
+
+1. **Strongest completed project**
+2. **SafeBite**
+3. **Construction Cost Estimator — In Progress**
+
+### CTA
+
+> **View My Work**
+
+---
+
+# 💻 Projects Page
+
+### Sections
+
+1. **Projects Introduction**
+   - A short overview of my work
+
+2. **Featured Project**
+   - My strongest and most complete project
+
+3. **SafeBite**
+   - The problem
+   - What I built
+   - Technologies used
+   - Screenshots
+   - Repository or demo
+
+4. **Construction Cost Estimator**
+   - Current/in-progress project
+   - Backend logic
+   - User input
+   - Data validation
+   - Dynamic calculations
+   - Cost estimation
+
+5. **Other Projects**
+   - Smaller or additional projects
+
+6. **Project Links**
+   - GitHub repositories
+   - Live demos where available
+
+### CTA
+
+> **View Project Details**
+
+---
+
+# 📄 Case Study Pages
+
+Each major project will have a case study using the following structure.
+
+## 1. The Problem
+
+What problem was I trying to solve?
+
+## 2. What I Did
+
 - What I built
-- Decisions
-- Challenges
-- Result
-- CTA
+- My role and contribution
+- Technologies used
+- Important decisions I made
 
-About
-- Who I am
-- Skills
-- Learning
-- Development approach
-- CTA
+## 3. Technical Decisions
 
-Contact
-- Email
-- GitHub
-- LinkedIn
-- Resume
-- CTA
+Explain important development decisions and why they were made.
 
+## 4. Challenges
 
-3. STILL NEED TO GATHER
+Describe problems, bugs, or difficulties encountered and how they were handled.
 
-- Project screenshots
-- GitHub links
-- Live demos
-- Resume
-- Professional photo
-- Project metrics/results
+## 5. What Came of It
 
+Explain the actual outcome:
 
-4. IDENTITY KIT
+- A working application
+- A completed feature
+- A functional backend system
+- Lessons learned
 
-Heading: Space Grotesk
-Body: Inter
+### CTA
 
-Main: #2563EB
-Text: #111827
-Background: #F9FAFB
-Accent: #F59E0B
+> **View the Code**
 
-Logo: Initial-based monogram
+Final CTA:
 
-Style:
-Clean, technical, confident, practical.
+> **Let's Work Together**
 
+---
 
-5. FINAL IMAGE SET
+# 👨‍💻 About Page
 
-My image for Hero Section
+### Sections
 
+1. **Who I Am**
+   - Short introduction
 
-6. REJECTED IMAGE
+2. **What I Build**
+   - Functional web applications
+   - Practical software solutions
 
-2-3 Images for not fit at that theme
+3. **My Skills**
+   - Technologies I work with
+
+4. **How I Work**
+   - Understand the problem
+   - Plan the solution
+   - Build the application
+   - Test and improve
+
+5. **What I'm Learning**
+   - Technologies and skills I am currently improving
+
+6. **Contact CTA**
+
+### CTA
+
+> **Get in Touch**
+
+---
+
+# 📬 Contact Page
+
+### Sections
+
+1. **Short Introduction**
+
+> Have a project, opportunity, or role where I could contribute? Let's talk.
+
+2. **Contact Methods**
+   - Email
+   - GitHub
+   - LinkedIn
+
+3. **Final Call to Action**
+
+> **Let's Work Together**
+
+---
+
+# CTA Journey
+
+```text
+Home
+  ↓
+View My Work
+  ↓
+View Project Details
+  ↓
+View Code / Demo
+  ↓
+Get in Touch
+  ↓
+Opportunity to Work Together
