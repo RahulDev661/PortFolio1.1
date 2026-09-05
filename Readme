@@ -12,3 +12,38 @@ Ship it behind the same auth + history flow already in place — no new plumbing
 Next piece 
 
 Visa verification support — extending /api/v1/passport/verify to accept and correctly process documentType="Visa", end to end (AI service → schema → router → frontend selector).
+
+Evidence of Real Set:
+VERIDEX/
+│
+├── app/
+│   ├── main.py
+│   ├── schemas.py
+│   └── routers/
+│       ├── health.py
+│       └── passport.py
+│
+├── ai_service/
+│   ├── config.py
+│   │
+│   ├── ocr/
+│   ├── face/
+│   ├── document/
+│   └── tampering/
+│
+├── blockchain/                 ← NEW
+│   ├── __init__.py
+│   ├── config.py
+│   ├── hasher.py
+│   ├── client.py
+│   ├── service.py
+│   └── contract/
+│       └── verificationContract.js
+│
+├── models/
+├── sample_data/
+├── tests/
+│
+├── requirements.txt
+└── .env.example
+
