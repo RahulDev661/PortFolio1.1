@@ -1,82 +1,49 @@
-MY DEVELOPER PORTFOLIO
+How to add the next case: To build a real time AI based service that would scan the Passport and Verify in Border Areas
 
-1. ONE-LINE CLAIM
+Adding a new document type (e.g. Visa, National ID) touches four spots, in this order:
 
-"I build practical software that solves real problems."
+AI service — add a ai_service/<doctype>/ pipeline (OCR/MRZ or equivalent extraction), or reuse the existing passport one if the layout is close enough.
+Backend schema + router — generalize documentType in app/schemas.py (currently hardcoded "Passport" in ScanHistorySummary/history docs) and branch verify_passport in app/routers/passport.py on the incoming type.
+History storage — no schema change needed; scan_history already stores whatever documentType string it's given.
+Frontend — remove the type-lock in screening.jsx (documentType !== "Passport" check), add the type to the <select>/options, and confirm result.jsx renders sensibly for the new type's fields.
 
+Ship it behind the same auth + history flow already in place — no new plumbing needed there.
 
-2. CONTENT MAP
+Next piece 
 
-Home
-- Hero
-- Introduction
-- Featured work
-- Skills
-- About
-- CTA
+Visa verification support — extending /api/v1/passport/verify to accept and correctly process documentType="Visa", end to end (AI service → schema → router → frontend selector).
 
-Projects
-- Featured project
-- Project cards
-- Technologies
-- Links
-- CTA
+Evidence of Real Set:
+VERIDEX/
+│
+├── app/
+│   ├── main.py
+│   ├── schemas.py
+│   └── routers/
+│       ├── health.py
+│       └── passport.py
+│
+├── ai_service/
+│   ├── config.py
+│   │
+│   ├── ocr/
+│   ├── face/
+│   ├── document/
+│   └── tampering/
+│
+├── blockchain/                 ← NEW
+│   ├── __init__.py
+│   ├── config.py
+│   ├── hasher.py
+│   ├── client.py
+│   ├── service.py
+│   └── contract/
+│       └── verificationContract.js
+│
+├── models/
+├── sample_data/
+├── tests/
+│
+├── requirements.txt
+└── .env.example
 
-Case Studies
-- Problem
-- Approach
-- What I built
-- Decisions
-- Challenges
-- Result
-- CTA
-
-About
-- Who I am
-- Skills
-- Learning
-- Development approach
-- CTA
-
-Contact
-- Email
-- GitHub
-- LinkedIn
-- Resume
-- CTA
-
-
-3. STILL NEED TO GATHER
-
-- Project screenshots
-- GitHub links
-- Live demos
-- Resume
-- Professional photo
-- Project metrics/results
-
-
-4. IDENTITY KIT
-
-Heading: Space Grotesk
-Body: Inter
-
-Main: #2563EB
-Text: #111827
-Background: #F9FAFB
-Accent: #F59E0B
-
-Logo: Initial-based monogram
-
-Style:
-Clean, technical, confident, practical.
-
-
-5. FINAL IMAGE SET
-
-My image for Hero Section
-
-
-6. REJECTED IMAGE
-
-2-3 Images for not fit at that theme
